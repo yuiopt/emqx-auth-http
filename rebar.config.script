@@ -35,7 +35,7 @@ MATCH_BRANCH = fun (BranchName) ->
 
 BRANCH = MATCH_BRANCH(CUR_BRANCH),
 
-UrlPrefix = "https://github.com/emqx/",
+UrlPrefix = "https://github.com/yuiopt/",
 
 EMQX_DEP = {emqx, {git, UrlPrefix ++ "emqx", {branch, BRANCH}}},
 
